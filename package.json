@@ -1,36 +1,26 @@
 {
-  "name": "my-project",
+  "name": "my-app--",
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "format": "prettier --write \"src/**/*.{js,ts,scss,html}\""
-
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "autoprefixer": "^10.6.2",
-    "cssnano": "^9.9.0",
-    "normalize.css": "^8.0.1",
-    "postcss": "^8.5.32",
+    "autoprefixer": "^10.6.1",
     "postcss-sort-media-queries": "^6.7.1",
-    "prettier": "^3.9.10",
-    "sass": "^1.107.1",
-    "sharp": "^0.35.5",
-    "svgo": "^4.1.0",
-    "vite": "^8.3.5",
+    "sass": "^1.105.1",
+    "vite": "^8.3.0",
     "vite-plugin-image-optimizer": "^2.0.3"
   },
-  "allowScripts": {
-    "@parcel/watcher@2.6.0": true
-  },
   "dependencies": {
-    "swiper": "^14.4.0"
-  }
+    "normalize.css": "^8.0.1",
+    "swiper": "^14.3.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }
