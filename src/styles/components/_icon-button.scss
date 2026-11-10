@@ -1,0 +1,46 @@
+.sidebar__btn {
+  @include flex-center;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  transition: opacity 0.2s ease, filter 0.2s ease;
+
+  img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+
+  &:hover {
+    opacity: 0.6;
+    filter: brightness(0.8);
+  }
+
+  &--contact {
+    background-color: $color-accent;
+    width: 40px;
+    height: 40px;
+
+    &:hover {
+      opacity: 0.6;
+      filter: brightness(0.8);
+    }
+
+    img {
+      width: 24px;
+      height: 24px;
+      // Делаем SVG белыми
+      filter: brightness(0) invert(1);
+    }
+  }
+}
+
+.sidebar__logo img {
+  width: 80px;
+  height: auto;
+  margin-left: 10px;
+  margin-right: auto;
+}

@@ -95,6 +95,10 @@
     box-shadow: none;
     background-color: transparent;
 
+      .header__burger {
+    display: none;
+  }
+
     &__container {
       padding: 0 -5px;
       justify-content: flex-end;
